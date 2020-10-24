@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 
 int main()
 {
@@ -18,7 +16,7 @@ int main()
     printf("Rate your programmings skills from A-D (A being the highest and D being the lowest : ");
     //Get user skill level
     scanf("%s", &skill);
-    printf("Thank you %s Happy Hacking", &name); //Thank the user
+    printf("Thank you %s Happy Hacking", name); //Thank the user
 
     return 0;
 }
